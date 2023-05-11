@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".chat">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_person_24"
+        android:scaleType="centerCrop"
+        android:id="@+id/person"
+        android:adjustViewBounds="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nama"
+            android:layout_marginTop="15dp"
+            android:text="sshofisf"
+            android:textSize="20sp"
+            android:textColor="#8C3C3C"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/isichat"
+            android:text="Lgi dmna?"
+            android:textColor="#8C3C3C"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/pukul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-40dp"
+            android:text="13.53"
+            android:textSize="20sp"
+            android:textColor="#8C3C3C"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-30dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
